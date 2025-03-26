@@ -1,38 +1,51 @@
-// // 1-masala
-// let number = 1
-// let numbers = 100
-//
-// for (let i = number; i <= numbers; i++) {
-//     console.log(i)
+// 1-masala
+// let i = 2;
+// while (i <= 100) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+//     i++;
 // }
 
-// 2-masala
-// let a = 1;
-// let b = 2;
-// let c = 3;
-// let d;
-//
-// d=a
-// a=b
-// b=c
-// c=d
-// console.log(a,b,c);
+// for (let i = 2; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
 
+// for (let i = 2; i <= 100; i++) {
+//     switch (i % 2) {
+//         case 0:
+//             console.log(i);
+//             break;
+//     }
+// }
 
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
 
 // 3-masala
-// let A = 3
-// let B = 7;
-// let sum = ((B - A + 1) * (A + B)) / 2;
+// let a = 3;
+// let b = 7;
+// let sum = 0;
+//
+// for (let i = a; i <= b; i++) {
+//     sum += i;
+// }
+//
 // console.log(sum);
 
 
-
-let N = 5;
-let numbers = 1;
-
-for (let i = 1; i <= N; i++) {
-    numbers *= i;
-}
-
-console.log(numbers);
+// 4-masala
+// let N = 5;
+// let result = 1;
+//
+// while (N > 1) {
+//     result *= N;
+//     N--;
+// }
+//
+// console.log(result);
