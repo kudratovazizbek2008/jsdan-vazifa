@@ -1,51 +1,140 @@
 // 1-masala
-// let i = 2;
-// while (i <= 100) {
-//     if (i % 2 === 0) {
-//         console.log(i);
+// function main(num) {
+//     if (num > 0) {
+//         num += 1;
 //     }
-//     i++;
+//     console.log(num);
 // }
+// main(5)
+// main(-5)
 
-// for (let i = 2; i <= 100; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i);
+// 2-masala
+// function main(a) {
+//     if (a > 0) {
+//         a += 1;
+//     } else {
+//         a -= 2;
 //     }
+//     console.log(a);
 // }
-
-// for (let i = 2; i <= 100; i++) {
-//     switch (i % 2) {
-//         case 0:
-//             console.log(i);
-//             break;
-//     }
-// }
-
-// for (let i = 1; i <= 100; i++) {
-//     if (i % 2 !== 0) {
-//         console.log(i);
-//     }
-// }
+// main(5)
+// main(-5)
 
 // 3-masala
-// let a = 3;
-// let b = 7;
-// let sum = 0;
-//
-// for (let i = a; i <= b; i++) {
-//     sum += i;
+// function main(b) {
+//     if (b > 0) {
+//         b += 1;
+//     } else if (b < 0) {
+//         b -= 2;
+//     } else {
+//         b = 10;
+//     }
+//     console.log(b);
 // }
-//
-// console.log(sum);
-
+// main(4);
+// main(-2);
+// main(0);
 
 // 4-masala
-// let N = 5;
-// let result = 1;
+// function main(a, b, c) {
+//     let d = 0;
+//     if (a > 0) d++;
+//     if (b > 0) d++;
+//     if (c > 0) d++;
 //
-// while (N > 1) {
-//     result *= N;
-//     N--;
+//     console.log(d);
+// }
+// main(3, -1, 7);
+// main(-5, -2, -8);
+// main(1, 2, 3);
+
+// 5-masala
+// function main(a, b, c) {
+//     let d = 0;
+//     let e = 0;
+//     if (a < 0) e++;
+//     if (b < 0) e++;
+//     if (c < 0) e++;
+//     if (a > 0) d++;
+//     if (b > 0) d++;
+//     if (c > 0) d++;
+//
+//     console.log(`${d} musbat ${e} manfiy`);
+// }
+// main(3, -1, 7);
+// main(-5, -2, -8);
+// main(1, 2, 3);
+
+// 6-masala
+// function main(a, b) {
+//     if (a > b) {
+//         return '${a} kattaroq';
+//     } else if (b > a) {
+//         return '${b} kattaroq';
+//     } else {
+//         return "Ikkalasi teng";
+//     }
 // }
 //
-// console.log(result);
+// let son1 = parseInt(prompt("Birinchi sonni kiriting:"));
+// let son2 = parseInt(prompt("Ikkinchi sonni kiriting:"));
+//
+// alert(main(son1, son2));
+
+// 7-masala
+// function main(a, b) {
+//     if (a < b) {
+//         return "1-son kichik ";
+//     } else if (b < a) {
+//         return "2-son kichik";
+//     } else {
+//         return "Ikkalasi teng, tartib raqami yo'q";
+//     }
+//
+// }
+// let son1 = parseInt(prompt("Birinchi sonni kiriting:"));
+// let son2 = parseInt(prompt("Ikkinchi sonni kiriting:"));
+//
+// alert(main(son1, son2));
+
+// 8-masala
+
+// function main(a, b) {
+//     if (a > b) {
+//         console.log(a, b);
+//     } else {
+//         console.log(b, a);
+//     }
+// }
+// let son1 = parseInt(prompt("Birinchi sonni kiriting:"));
+// let son2 = parseInt(prompt("Ikkinchi sonni kiriting:"));
+// main(son1, son2);
+
+// 9-masala
+// function main(a, b) {
+//     if (a > b) {
+//         let d = a;
+//         a = b;
+//         b = d;
+//     }
+//     console.log("a =", a, "b =", b);
+// }
+// let a = parseFloat(prompt("a ni kiriting:"));
+// let b = parseFloat(prompt("b ni kiriting:"));
+// main(a, b);
+
+// 10-masla
+// function main(a, b) {
+//     if (a !== b) {
+//         a=a+b;
+//         b = a;
+//     } else {
+//         a = 0;
+//         b = 0;
+//     }
+//     console.log("a =", a, "b =", b);
+// }
+// let a = parseFloat(prompt("A ni kiriting:"));
+// let b = parseFloat(prompt("B ni kiriting:"));
+// main(a, b);
+
